@@ -4,7 +4,7 @@
 <template>
     <div>
         <my-header></my-header>
-        this is home page 
+        this is login page 
         <my-footer></my-footer>
     </div>
 </template>
@@ -12,12 +12,10 @@
     import MyHeader from '../components/Header.vue'
     import MyFooter from '../components/Footer.vue'
     export default {
-       name: "home_page",
+       name: "login_page",
+       
        props: {
            
-       },
-       data(){
-           return {}
        },
        components: {
            MyHeader,

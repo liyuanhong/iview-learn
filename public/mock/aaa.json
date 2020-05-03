@@ -1,0 +1,7 @@
+{
+    "status": 200,
+    "data": [
+        {"id":1,"username":"yuanhong","password":"123456","age":"28","sex":"男"},
+        {"id":2,"username":"yoyo","password":"345667","age":"27","sex":"女"}
+    ]
+}
