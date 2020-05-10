@@ -1,7 +1,7 @@
 <template>
     <div>
         <Drawer title="Multi-level drawer" width="512" :closable="false" v-model="value5">
-            <div :style="{'width':'100%','height':'100px','background-color':'pink'}">
+            <div :style="{'width':'100%','height':'100px','background-color':'pink','border-radius':'10px'}">
 
             </div>
             <div :style="{'margin-top':'10px'}">
