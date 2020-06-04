@@ -28,6 +28,7 @@
     </div>
 </template>
 <script>
+    const hostname = document.location.hostname
     export default {
        name: "my-header",
        props: {
@@ -35,7 +36,7 @@
        },
        data(){
            return {
-               host: "localhost",
+               host: hostname,
                port: 8080
            }
        }

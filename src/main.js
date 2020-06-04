@@ -6,7 +6,10 @@ import axios from 'axios'
 import ViewUI from 'view-design';
 import 'view-design/dist/styles/iview.css';
 
-axios.defaults.baseURL = "http://localhost:8080/";
+//const hostname = document.location.hostname
+const host = document.location.host
+console.log(host)
+axios.defaults.baseURL = "http://" + host;
 Vue.prototype.$http = axios
 
 
